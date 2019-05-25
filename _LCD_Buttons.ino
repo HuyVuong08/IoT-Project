@@ -106,7 +106,7 @@ void Greeting() {
     lcd.setCursor(4, 1);            
     lcd.print("WELCOME!");
 
-    setTimer(3);
+    setTimer(1);
     startTimer();
 
     prev_state = St_Greeting;
